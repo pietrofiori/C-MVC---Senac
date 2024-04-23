@@ -16,11 +16,11 @@ namespace SenacStore.Data
 
         public DbSet<SenacStore.Models.Product> Product { get; set; } = default!;
 
-        public DbSet<SenacStore.Models.Product> Seller { get; set; } = default!;
+        public DbSet<SenacStore.Models.Seller> Seller { get; set; } = default!;
 
-        public DbSet<SenacStore.Models.Product> Department { get; set; } = default!;
+        public DbSet<SenacStore.Models.Department> Department { get; set; } = default!;
 
-        public DbSet<SenacStore.Models.Product> SalesRecord { get; set; } = default!;
+        public DbSet<SenacStore.Models.SalesRecord> SalesRecord { get; set; } = default!;
 
     }
 }

@@ -1,5 +1,8 @@
-﻿namespace SenacStore.Models
+﻿using System.Collections.Generic;
+
+namespace SenacStore.Models
 {
+
     public class Department
     {
         public int Id { get; set; }
